@@ -9,4 +9,4 @@ jobs:
       - name: "Prints the name"
         uses: Mykyta/hello-world-javascript-action@7
         with:
-          file: "README.md"
+          files: "README.md"
