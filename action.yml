@@ -11,4 +11,4 @@ inputs:
     default: 'developer'
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'index.js'
