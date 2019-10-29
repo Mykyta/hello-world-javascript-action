@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: "Prints the name"
-        uses: Mykyta/hello-world-javascript-action@7
+        uses: Mykyta/hello-world-javascript-action@7.1
         with:
           files: "README.md"
