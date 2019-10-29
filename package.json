@@ -1,24 +1,26 @@
 {
-  "name": "hello-world-javascript-action",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "prints-your-name",
+  "version": "0.1.0",
+  "description": "Prints your name",
+  "main": "lib/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mykyta/hello-world-javascript-action.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "actions",
+    "github actions"
+  ],
+  "author": "Mykyta",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mykyta/hello-world-javascript-action/issues"
   },
   "homepage": "https://github.com/Mykyta/hello-world-javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.1.3",
-    "@actions/github": "^1.1.0"
+    "@actions/core": "^1.1.3"
   }
 }

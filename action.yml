@@ -1,14 +1,14 @@
-name: 'Tell your name'
+name: 'prints-your-name'
 description: 'Prints your name'
-author: 'Mykyta Shevelov'
+author: 'Mykyta'
 branding:
   icon: watch
   color: green
 inputs:
-  name:  # id of input
+  name:  # id of name input
     description: 'your name'
     required: true
     default: 'developer'
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'lib/main.js'
