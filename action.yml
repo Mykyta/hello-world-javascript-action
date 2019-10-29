@@ -1,14 +1,12 @@
-name: 'prints-your-name'
-description: 'Prints your name'
+name: 'files-present-action'
+description: 'Checks for presence of files'
 author: 'Mykyta'
 branding:
   icon: watch
   color: green
 inputs:
-  name:  # id of name input
-    description: 'your name'
-    required: true
-    default: 'developer'
+  files:
+    description: 'Array describing the files'
 runs:
   using: 'node12'
   main: 'lib/main.js'
