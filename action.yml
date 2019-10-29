@@ -1,13 +1,14 @@
 name: 'Tell your name'
 description: 'Prints your name'
+author: 'Mykyta Shevelov'
+branding:
+  icon: watch
+  color: green
 inputs:
-  who-to-greet:  # id of input
+  name:  # id of input
     description: 'your name'
     required: true
     default: 'developer'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
 runs:
   using: 'node12'
   main: 'dist/index.js'
