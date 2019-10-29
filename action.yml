@@ -1,4 +1,4 @@
-name: 'files-present-action'
+name: 'temp-files-present-action'
 description: 'Checks for presence of files'
 author: 'Mykyta'
 branding:
