@@ -1,15 +1,12 @@
-name: TestHello
-
+name: "Prints your name"
 on: [push]
 
 jobs:
-  hello_world_job:
+  file_presence:
     runs-on: ubuntu-latest
-    name: A job to say hello
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-      - name: Hello world action step
-        uses: ./ # Uses an action in the root directory
+      - uses: actions/checkout@v1
+      - name: "Prints the name"
+        uses: Mykyta/hello-world-javascript-action@5
         with:
-          name: 'Nick'
+          name: "Nick"
